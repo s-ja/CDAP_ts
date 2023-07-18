@@ -1,1 +1,1 @@
-var myName = "asj";
+let myName = "asj";
