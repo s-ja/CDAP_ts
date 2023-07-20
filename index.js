@@ -17,7 +17,8 @@ class User {
         this.name = name;
     }
 }
-// 2강 예제
+// TODO: 2강
+// *예제
 // *Q1. 여러분의 이름, 나이, 출생지역을 변수로 각각 저장해봅시다.
 // 물론 타입도 알아서 지정해보십시오. 이건 쉬우니 답은 없습니다.
 let myLastName = "seung ji";
