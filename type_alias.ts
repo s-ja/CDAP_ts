@@ -15,3 +15,14 @@ type AnimalType = { name: string; age?: number };
 let animal2: AnimalType = { name: "dog", age: 3 };
 
 const birthLocation: string = "seoul";
+
+// TODO : object readonly
+type place = {
+  readonly region: string;
+};
+
+const where: place = {
+  region: "seoul",
+};
+
+// where.region = "busan"; // Error
