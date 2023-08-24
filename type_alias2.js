@@ -28,6 +28,8 @@ function cutZero(a) {
 }
 function removeDash(a) {
     return parseFloat(a.replace("-", ""));
+    //   let result = a.replace("-", "");
+    //   return parseFloat(result);
 }
 let cutZero_solution = function (x) {
     let result = x.replace(/^0+/, "");
@@ -60,5 +62,6 @@ function total_solution(a, func1, func2) {
 total_solution("010-1111-2222", cutZero_solution, removeDash_solution); //1011112222 출력잘됨
 console.log(total_solution("010-1111-2222", cutZero_solution, removeDash_solution));
 console.log(total("010-1111-2222", cutZero, removeDash));
-console.log(cutZero("010-1111-2222"));
+// console.log(cutZero("010-1111-2222"));
 console.log(removeDash("010-1111-2222"));
+console.log(removeDash_solution("010-1111-2222"));

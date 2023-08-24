@@ -47,6 +47,8 @@ function cutZero(a: string): string {
 
 function removeDash(a: string): number {
   return parseFloat(a.replace("-", ""));
+  //   let result = a.replace("-", "");
+  //   return parseFloat(result);
 }
 
 // ? solution
@@ -92,5 +94,6 @@ console.log(
 
 console.log(total("010-1111-2222", cutZero, removeDash));
 
-console.log(cutZero("010-1111-2222"));
+// console.log(cutZero("010-1111-2222"));
 console.log(removeDash("010-1111-2222"));
+console.log(removeDash_solution("010-1111-2222"));
