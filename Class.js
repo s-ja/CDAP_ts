@@ -21,7 +21,7 @@ class User04 {
         this.y = 20;
     }
 }
-User04.x = 10; // 부모만 사용 가능하게끔. (자식에게 물려주지 않음) // extends 로 따라 붙어감. // private || public 과 함께 사용 가능.
+User04.x = 10; // 부모만 사용 가능하게끔. (자식에게 물려주지 않음) // extends 로 따라 붙어감. // private // public 과 함께 사용 가능.
 let child = new User04();
 console.log(child);
 // console.log(User04.x); // Error
