@@ -80,6 +80,7 @@ function 숙제4_solution(...rest) {
     });
     return result;
 }
+console.log(숙제4_solution("b", 5, 6, 8, "a"));
 export {};
 // 1. 함수 만들었습니다. 파라미터는 몇개가 들어올지 몰라서 rest parameter 썼고 파라미터 타입은 (string|number)[] 이게 좋겠군요.
 // 2. 결과를 저장할 result라는 변수를 만들었습니다. 기본값은 [[], []] 이렇게 만들었고 그거 타입지정은 tuple type을 활용해봤습니다.

@@ -104,7 +104,7 @@ function 숙제4_solution(...rest: (string | number)[]) {
 
   return result;
 }
-
+console.log(숙제4_solution("b", 5, 6, 8, "a"));
 // 1. 함수 만들었습니다. 파라미터는 몇개가 들어올지 몰라서 rest parameter 썼고 파라미터 타입은 (string|number)[] 이게 좋겠군요.
 // 2. 결과를 저장할 result라는 변수를 만들었습니다. 기본값은 [[], []] 이렇게 만들었고 그거 타입지정은 tuple type을 활용해봤습니다.
 // 3. rest 파라미터에 반복문 돌렸습니다. 타입이 string이면 result[0]에 추가해주고 number면 result[1]에 추가해줍니다.
