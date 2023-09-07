@@ -1,9 +1,7 @@
-"use strict";
 // /// <reference path= "./TypeExport.ts"/>
-Object.defineProperty(exports, "__esModule", { value: true });
-const TypeExport_1 = require("./TypeExport");
-console.log(TypeExport_1.name02);
-console.log(TypeExport_1.age02);
+import { name02, age02 } from "./TypeExport";
+console.log(name02);
+console.log(age02);
 let testCar = {
     wheel: 4,
     model: "sonata",
