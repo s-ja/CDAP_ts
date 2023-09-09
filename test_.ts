@@ -12,4 +12,4 @@ let testMan: string = "asj";
 
 let 나이: Age = 28;
 
-$().append();
+// $().append();
